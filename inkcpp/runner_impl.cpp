@@ -14,6 +14,7 @@
 #include "snapshot_impl.h"
 #include "system.h"
 #include "value.h"
+#include "time.h"
 
 namespace ink::runtime
 {

@@ -20,7 +20,9 @@
         "libArchive": false,
 		"flags": [
 			"-Ishared/private",
-			"-Ishared/public"        
+			"-Ishared/public",
+            "-DINKCPP_BUILD_CLIB",
+            "-std=c++17" 
         ]
     }
 }

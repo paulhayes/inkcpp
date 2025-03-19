@@ -7,6 +7,9 @@
 #pragma once
 
 #include "config.h"
+#include "stdio.h"
+#include "ctype.h"
+#include "utility"
 
 #ifdef INK_ENABLE_UNREAL
 #	include "Misc/AssertionMacros.h"
