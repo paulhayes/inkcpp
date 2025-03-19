@@ -1,0 +1,26 @@
+{
+    "name": "Ink4Arduino",
+    "version": "0.0.1",
+    "keywords": "",
+    "description": "Porting Ink library to platformio",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:paulhayes/inkcpp.git"
+    },
+    "frameworks": "arduino",
+    "export": {
+        "include":
+        [
+            "inkcpp/include/*.h"
+        ]
+    },
+    "build": {
+        "srcDir":"./inkcpp",
+        "includeDir":"./inkcpp/include",
+        "libArchive": false,
+		"flags": [
+			"-Ishared/private",
+			"-Ishared/public"        
+        ]
+    }
+}
