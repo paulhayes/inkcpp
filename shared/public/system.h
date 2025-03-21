@@ -10,6 +10,7 @@
 #include "stdio.h"
 #include "ctype.h"
 #include "utility"
+#include <memory>
 
 #ifdef INK_ENABLE_UNREAL
 #	include "Misc/AssertionMacros.h"
