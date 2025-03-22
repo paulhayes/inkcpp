@@ -10,6 +10,8 @@
 #	define INK_ENABLE_UNREAL
 #elif INKCPP_BUILD_CLIB
 #	define INK_ENABLE_CSTD
+#elif INK_ENABLE_CSTD_ONLY
+#	define INK_ENABLE_CSTD
 #else
 #	define INK_ENABLE_STL
 #	define INK_ENABLE_CSTD
